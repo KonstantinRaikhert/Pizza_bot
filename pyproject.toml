@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pizza-bot"
+version = "0.1.0"
+description = "Education project for aiogram library"
+authors = ["Konstantin Raikhert"]
+license = "None"
+readme = "README.md"
+packages = [{include = "pizza_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.22.1"
+python-dotenv = "^0.21.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
